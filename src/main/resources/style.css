@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2015, 11:11:55 AM
+    Author     : KouziaMi
+*/
+
+.chart {
+    -fx-padding: 10px;
+}
+
+.chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.chart-line-symbol {
+    -fx-background-color: #f9d900, white;
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 2px;
+    -fx-padding: 2px;
+}
+
+.real {
+    -fx-stroke: black;
+}
+
+.real-symbol {
+    -fx-background-color: black, white;
+}
+
+.estimated {
+    -fx-stroke: blue;
+}
+
+.estimated-symbol {
+    -fx-background-color: blue, white;
+}
+
+.median {
+    -fx-stroke: green;
+}
+
+.median-symbol {
+    -fx-background-color: green, white;
+}
+
+.weightedMedian {
+    -fx-stroke: red;
+}
+
+.weightedMedian-symbol {
+    -fx-background-color: red, white;
+}
